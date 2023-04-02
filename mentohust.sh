@@ -6,7 +6,7 @@ rnd2=0
 while [[ $rnd1 = $rnd2 ]]
 do
 rnd1=$[$RANDOM%${#stuid[*]}]
-rnd2=$[$RANDOM%${#stuid[*]}]
+#rnd2=$[$RANDOM%${#stuid[*]}]
 done
 
 echo ${stuid[$rnd1]}
